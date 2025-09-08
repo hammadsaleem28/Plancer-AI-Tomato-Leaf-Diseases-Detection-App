@@ -1,0 +1,243 @@
+{
+  "diseases": {
+    "Tomato_Bacterial_spot": {
+      "name": "Bacterial Spot",
+      "description": "Bacterial spot causes small, dark brown spots with yellow halos on leaves. It can severely reduce plant vigor and fruit quality.",
+      "severity": "High",
+      "solutions": [
+        "Apply copper-based bactericides early in the season",
+        "Remove and destroy infected plant material immediately",
+        "Avoid overhead watering to reduce leaf wetness",
+        "Ensure good air circulation around plants",
+        "Use pathogen-free seeds and transplants",
+        "Practice crop rotation with non-solanaceous crops"
+      ],
+      "visual_patterns": {
+        "spot_color": "dark_brown",
+        "halo_color": "yellow",
+        "spot_size": "small",
+        "pattern": "scattered_spots",
+        "leaf_condition": "spotted"
+      },
+      "detection_accuracy": 0.85,
+      "total_detections": 0,
+      "successful_detections": 0
+    },
+    "Tomato_Early_blight": {
+      "name": "Early Blight",
+      "description": "Early blight appears as dark spots with concentric rings on older leaves. It spreads upward and can cause significant defoliation.",
+      "severity": "Medium",
+      "solutions": [
+        "Apply fungicide treatments containing chlorothalonil or copper",
+        "Remove affected lower leaves immediately",
+        "Improve air circulation by proper plant spacing",
+        "Water at soil level to keep leaves dry",
+        "Clean up plant debris at end of season",
+        "Rotate crops to break disease cycle"
+      ],
+      "visual_patterns": {
+        "spot_color": "dark_brown",
+        "ring_pattern": "concentric",
+        "spot_size": "medium",
+        "pattern": "target_like",
+        "leaf_condition": "ringed_spots"
+      },
+      "detection_accuracy": 0.90,
+      "total_detections": 0,
+      "successful_detections": 0
+    },
+    "Tomato_Late_blight": {
+      "name": "Late Blight",
+      "description": "Late blight causes water-soaked spots that quickly turn brown and black. It can destroy entire plants within days in humid conditions.",
+      "severity": "Severe",
+      "solutions": [
+        "Apply preventive fungicides before symptoms appear",
+        "Remove and destroy infected plants immediately",
+        "Increase air circulation and reduce humidity",
+        "Avoid overhead watering completely",
+        "Disinfect tools between plants",
+        "Monitor weather for favorable disease conditions"
+      ],
+      "visual_patterns": {
+        "spot_color": "water_soaked_brown",
+        "spot_size": "large",
+        "pattern": "irregular_spreading",
+        "leaf_condition": "water_soaked",
+        "spread_rate": "fast"
+      },
+      "detection_accuracy": 0.80,
+      "total_detections": 0,
+      "successful_detections": 0
+    },
+    "Tomato_Leaf_Mold": {
+      "name": "Leaf Mold",
+      "description": "Leaf mold appears as yellow spots on upper leaf surfaces with fuzzy growth underneath. Common in humid greenhouse conditions.",
+      "severity": "Medium",
+      "solutions": [
+        "Improve ventilation to reduce humidity",
+        "Maintain temperature above 70°F when possible",
+        "Water at soil level only",
+        "Remove affected leaves promptly",
+        "Apply fungicides if necessary",
+        "Space plants properly for air circulation"
+      ],
+      "visual_patterns": {
+        "spot_color": "yellow",
+        "growth_type": "fuzzy_underneath",
+        "spot_size": "medium",
+        "pattern": "yellow_spots",
+        "leaf_condition": "moldy"
+      },
+      "detection_accuracy": 0.82,
+      "total_detections": 0,
+      "successful_detections": 0
+    },
+    "Tomato_Septoria_leaf_spot": {
+      "name": "Septoria Leaf Spot",
+      "description": "Septoria leaf spot creates small, circular spots with dark borders and light centers. It typically starts on lower leaves.",
+      "severity": "Medium",
+      "solutions": [
+        "Use fungicides containing chlorothalonil or copper",
+        "Remove and destroy affected lower leaves",
+        "Mulch around plants to prevent soil splash",
+        "Water at ground level to keep foliage dry",
+        "Clean up garden debris regularly",
+        "Practice 3-4 year crop rotation"
+      ],
+      "visual_patterns": {
+        "spot_color": "dark_border_light_center",
+        "spot_size": "small",
+        "pattern": "circular_spots",
+        "leaf_condition": "spotted",
+        "border_type": "dark"
+      },
+      "detection_accuracy": 0.78,
+      "total_detections": 0,
+      "successful_detections": 0
+    },
+    "Tomato_Spider_mites_Two_spotted_spider_mite": {
+      "name": "Spider Mites",
+      "description": "Spider mites cause stippling, yellowing, and fine webbing on leaves. They thrive in hot, dry conditions.",
+      "severity": "Medium",
+      "solutions": [
+        "Increase humidity around plants",
+        "Spray leaves with water to dislodge mites",
+        "Encourage beneficial insects like ladybugs",
+        "Use insecticidal soap or neem oil",
+        "Provide shade during hottest part of day",
+        "Monitor regularly for early detection"
+      ],
+      "visual_patterns": {
+        "damage_type": "stippling",
+        "color_change": "yellowing",
+        "webbing": "fine_webbing",
+        "pattern": "stippled",
+        "leaf_condition": "stippled_yellow"
+      },
+      "detection_accuracy": 0.75,
+      "total_detections": 0,
+      "successful_detections": 0
+    },
+    "Tomato__Target_Spot": {
+      "name": "Target Spot",
+      "description": "Target spot creates circular lesions with concentric rings resembling a target. It affects leaves, stems, and fruits.",
+      "severity": "Medium",
+      "solutions": [
+        "Apply preventive fungicide treatments",
+        "Remove infected plant material immediately",
+        "Improve air circulation between plants",
+        "Avoid overhead irrigation",
+        "Remove plant debris from garden",
+        "Rotate with non-solanaceous crops"
+      ],
+      "visual_patterns": {
+        "spot_color": "brown",
+        "ring_pattern": "concentric_target",
+        "spot_size": "medium",
+        "pattern": "target_like",
+        "leaf_condition": "target_spots"
+      },
+      "detection_accuracy": 0.90,
+      "total_detections": 0,
+      "successful_detections": 0
+    },
+    "Tomato__Tomato_YellowLeaf__Curl_Virus": {
+      "name": "Yellow Leaf Curl Virus",
+      "description": "This virus causes upward curling of leaves, yellowing, and stunted growth. It spreads through whiteflies.",
+      "severity": "Severe",
+      "solutions": [
+        "Control whitefly populations immediately",
+        "Remove and destroy infected plants",
+        "Use reflective mulches to deter whiteflies",
+        "Plant resistant varieties when available",
+        "Disinfect hands and tools between plants",
+        "Use row covers during vulnerable periods"
+      ],
+      "visual_patterns": {
+        "leaf_shape": "upward_curling",
+        "color_change": "yellowing",
+        "growth": "stunted",
+        "pattern": "curled_yellow",
+        "leaf_condition": "curled"
+      },
+      "detection_accuracy": 0.88,
+      "total_detections": 0,
+      "successful_detections": 0
+    },
+    "Tomato__Tomato_mosaic_virus": {
+      "name": "Tomato Mosaic Virus",
+      "description": "Mosaic virus causes mottled light and dark green patterns on leaves and stunted growth. It spreads through contact and contaminated tools.",
+      "severity": "Severe",
+      "solutions": [
+        "Remove and destroy infected plants immediately",
+        "Disinfect tools and hands after handling plants",
+        "Control aphid and other insect vectors",
+        "Use virus-free seeds and resistant varieties",
+        "Avoid working with wet plants",
+        "Wear gloves when handling plants"
+      ],
+      "visual_patterns": {
+        "pattern_type": "mottled",
+        "color_pattern": "light_dark_green",
+        "growth": "stunted",
+        "pattern": "mosaic",
+        "leaf_condition": "mottled"
+      },
+      "detection_accuracy": 0.85,
+      "total_detections": 0,
+      "successful_detections": 0
+    },
+    "Tomato_healthy": {
+      "name": "Healthy Plant",
+      "description": "Your plant appears to be healthy with no visible signs of disease. Keep up the good care!",
+      "severity": "None",
+      "solutions": [
+        "Continue your current care routine",
+        "Monitor plants regularly for any changes",
+        "Maintain proper watering and nutrition",
+        "Ensure good air circulation",
+        "Keep practicing preventive measures",
+        "Schedule regular plant health checkups"
+      ],
+      "visual_patterns": {
+        "leaf_color": "healthy_green",
+        "leaf_condition": "smooth",
+        "pattern": "uniform",
+        "growth": "normal",
+        "spots": "none"
+      },
+      "detection_accuracy": 0.95,
+      "total_detections": 0,
+      "successful_detections": 0
+    }
+  },
+  "analysis_records": [],
+  "user_sessions": [],
+  "system_stats": {
+    "total_analyses": 0,
+    "successful_detections": 0,
+    "average_confidence": 0.0,
+    "most_common_disease": null,
+    "last_updated": null
+  }
+} 
