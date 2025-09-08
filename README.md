@@ -349,10 +349,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support & Contact
 
-- **Documentation**: [Wiki](https://github.com/yourusername/plantcare-ai/wiki)
 - **Issues**: [GitHub Issues](https://github.com/yourusername/plantcare-ai/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/plantcare-ai/discussions)
-- **Email**: support@plantcare-ai.com
+- **Email**: hammadsaleem.ds@gmail.com
 
 ---
 
@@ -363,5 +362,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/plantcare-ai?style=social)](https://github.com/yourusername/plantcare-ai/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/plantcare-ai?style=social)](https://github.com/yourusername/plantcare-ai/network)
 [![GitHub watchers](https://img.shields.io/github/watchers/yourusername/plantcare-ai?style=social)](https://github.com/yourusername/plantcare-ai/watchers)
+
 
 </div>
